@@ -44,3 +44,13 @@ dotnet add package Swashbuckle.AspNetCore
 
 ### Swagger URL
 http://localhost:5000/swagger/index.html
+
+### Commands to check the impact of mongo db
+docker exec -it mongo bash  
+mongo  
+show databases  
+use CatalogDB  
+show collections  
+db.<<collections_name>>.find().pretty()
+
+
