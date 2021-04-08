@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "Catalog"
+		},
+		{
+			"path": "Basket"
 		}
 	],
 	"settings": {}
