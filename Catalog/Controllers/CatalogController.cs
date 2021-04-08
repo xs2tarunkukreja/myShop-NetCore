@@ -63,7 +63,7 @@ namespace Catalog.Controllers
         public async Task<ActionResult<Product>> CreateProducts([FromBody] Product product)
         {
             await _repository.CreateProduct(product);
-            return CreatedAtRoute("GetProducts", new {id = product.Id}, product);
+            return CreatedAtRoute("GetProduct", new {id = product.Id}, product);
         }
 
         [HttpPut]
