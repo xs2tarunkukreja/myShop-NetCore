@@ -45,3 +45,11 @@ dotnet add package Swashbuckle.AspNetCore
 http://localhost:5000/swagger/index.html
 
 ### Commands to check the impact of redis
+docker exec -it redis sh  
+redis-cli  
+ping  
+get key  
+set key value  
+
+KEYS *  
+HGETALL "<<Name>>"
