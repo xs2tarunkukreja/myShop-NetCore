@@ -11,3 +11,6 @@ webapi + mongodb
 ### Basket
 webapi + redis
 
+### Discount
+webapi + postgresql + Dapper
+
