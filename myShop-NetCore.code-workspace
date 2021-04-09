@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "Discount"
+		},
+		{
+			"path": "OcelotAPIGateway"
 		}
 	],
 	"settings": {}
