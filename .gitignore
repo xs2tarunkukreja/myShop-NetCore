@@ -10,3 +10,15 @@ Discount/obj/
 
 OcelotAPIGateway/bin/
 OcelotAPIGateway/obj/
+
+Ordering/Ordering.API/bin/
+Ordering/Ordering.API/obj/
+
+Ordering/Ordering.Application/bin/
+Ordering/Ordering.Application/obj/
+
+Ordering/Ordering.Domain/bin/
+Ordering/Ordering.Domain/obj/
+
+Ordering/Ordering.Infrastructure/bin/
+Ordering/Ordering.Infrastructure/obj/
