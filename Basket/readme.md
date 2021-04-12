@@ -42,7 +42,7 @@ dotnet add package Swashbuckle.AspNetCore
 -- appsetting.json - Have added configuration related to db.
 
 ### Swagger URL
-http://localhost:5000/swagger/index.html
+http://localhost:8001/swagger/index.html
 
 ### Commands to check the impact of redis
 docker exec -it redis sh  

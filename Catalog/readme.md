@@ -43,7 +43,7 @@ dotnet add package Swashbuckle.AspNetCore
 -- appsetting.json - Have added configuration related to mongo db.
 
 ### Swagger URL
-http://localhost:5000/swagger/index.html
+http://localhost:8000/swagger/index.html
 
 ### Commands to check the impact of mongo db
 docker exec -it mongo bash  

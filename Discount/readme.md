@@ -25,7 +25,7 @@ LightWeight
 ## Functionality
 ### Use Cases
 Get coupon with productname  
-Update coupon  
+Update coupon   
 Delete coupon  
 Checkout coupon  
 
@@ -68,4 +68,4 @@ dotnet add package Swashbuckle.AspNetCore
 -- appsetting.json - Have added configuration related to db.
 
 ### Swagger URL
-http://localhost:5000/swagger/index.html
+http://localhost:8002/swagger/index.html
