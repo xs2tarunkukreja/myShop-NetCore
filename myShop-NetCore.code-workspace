@@ -11,6 +11,15 @@
 		},
 		{
 			"path": "OcelotAPIGateway"
+		},
+		{
+			"path": "Ordering"
+		},
+		{
+			"path": "Ordering\\Ordering.Application"
+		},
+		{
+			"path": "Ordering\\Ordering.Domain"
 		}
 	],
 	"settings": {}
