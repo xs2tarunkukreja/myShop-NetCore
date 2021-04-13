@@ -63,6 +63,7 @@ MediatR nuget package
 ## Implementation
 ### ASP .NET Web API
 Ordering.Domain - dotnet new classlib
+Ordering.Application - dotnet new classlib
 
 ### Nuget Packages
 #### Ordering.Application
@@ -70,7 +71,7 @@ dotnet add package MediatR.Extensions.Microsoft.DependencyInjection
 dotnet add package FluentValidation  
 dotnet add package FluentValidation.DependencyInjectionExtensions  
 dotnet add package AutoMapper  
-dotnet add package AutoMapper.Extensions.Microsoft.Dependency  
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection  
 dotnet add package Microsoft.Extensions.Logging.Abstractions  
 
 dotnet add reference ../Ordering.Domain/Ordering.Domain.csproj
@@ -78,6 +79,7 @@ dotnet add reference ../Ordering.Domain/Ordering.Domain.csproj
 ### Folder Structure
 -- Ordering.Domain  
 -- Ordering.Application  - CQRS
+    -- Contracts - Interfaces that are implemented in Ordering.Infrastructure  
 -- Ordering.API  
 -- Ordering.Infrastructure
 
