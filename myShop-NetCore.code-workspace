@@ -20,6 +20,12 @@
 		},
 		{
 			"path": "Ordering\\Ordering.Domain"
+		},
+		{
+			"path": "Ordering\\Ordering.API"
+		},
+		{
+			"path": "Ordering\\Ordering.Infrastructure"
 		}
 	],
 	"settings": {}
