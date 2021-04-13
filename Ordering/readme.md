@@ -96,3 +96,5 @@ dotnet add reference ../Ordering.Infrastructure/Ordering.Infrastructure.csproj -
 -- Ordering.API  
 -- Ordering.Infrastructure
 
+### Swagger URL
+http://localhost:8003/swagger/index.html
